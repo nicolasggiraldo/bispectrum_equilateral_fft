@@ -10,8 +10,8 @@
 #define COMPLEXMAG(A,i) ( (A[i][0] * A[i][0]) + (A[i][1] * A[i][1]) )
 #define VECTORMAG(x,y,z) sqrt( ((x)*(x)) + ((y)*(y)) + ((z)*(z)) )
 #define POW2(x) ((x)*(x))
-#define POW3(x) ((x)*(x)*(X))
-#define POW4(x) ((x)*(x)*(X)*(x))
+#define POW3(x) ((x)*(x)*(x))
+#define POW4(x) ((x)*(x)*(x)*(x))
 
 /* Global variales */
 struct globalVariables{

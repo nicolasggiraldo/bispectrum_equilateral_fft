@@ -66,13 +66,13 @@ double Sum_W2_NGP(double k)
 double Sum_W2_CIC(double k)
 {
   double sine = sin( (M_PI*0.5*k)/GV.KN );
-  return 1.0 - 0.666666666666667*POW2( sine );
+  return 1.0 - 0.666666666666667*POW2(sine);
 }
 
 double Sum_W2_TSC(double k)
 {
   double sine = sin( (M_PI*0.5*k)/GV.KN );
-  return 1.0 - POW2( sine ) + 0.133333333333333*POW4( sine );
+  return 1.0 - POW2(sine) + 0.133333333333333*POW4(sine);
 }
 
 double Sum_W2_D20(double k)
