@@ -43,12 +43,12 @@ double W_TSC(double k)
 
 double W_D20_Re(double k)
 {
-  return gsl_spline_eval(splineRe, k/GV.KN, acc);
+  return gsl_spline_eval(splineRe, (M_PI*k)/GV.KN, acc);
 }
 
 double W_D20_Im(double k)
 {
-  return gsl_spline_eval(splineIm, k/GV.KN, acc);
+  return gsl_spline_eval(splineIm, (M_PI*k)/GV.KN, acc);
 }
 
 double zero(double k)

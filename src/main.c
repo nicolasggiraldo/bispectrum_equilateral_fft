@@ -187,7 +187,7 @@ int main(int argc, char *argv[])
   else if( strcmp(GV.SCHEME, "D20") == 0 )
     {
       
-      len_array_D20 = 399;
+      len_array_D20 = 400;
       int err;
       
       k_D20     = (double *) calloc( len_array_D20, sizeof(double));
